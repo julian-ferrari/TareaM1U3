@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+}
+
+.cabecera{
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(0, 60, 157);
+    text-align: center;
+    background-color: rgb(192, 216, 255);
+}
+
+.foto{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 20%;
+}
+
+h2, h3, h4{
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    color: darkblue;
+}
+
+p{
+    font-family: Cambria;
+}
+
+.lista{
+    font-family: Georgia;
+    color: darkcyan;
+    font-size: 15px;
+    display: inline-flex;
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    background-color: #f9f9f9;
+}
+
+.formulario{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8e8; 
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+a{
+    font-family: Tahoma;
+    font-size: 15px;
+    color:blue;
+}
+
+a:hover{
+    color: red;
+}
